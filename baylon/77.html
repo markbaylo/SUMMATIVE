@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enrollment Form</title>
+</head>
+<body>
+
+  <h1>ENROLMENT FORM IN CRECENTIA DRUCILA LOPEZ SENIOR HIGH SCHOOL</h1>
+  
+  <form action="/submit_enrollment" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="birthday">Birthday:</label><br>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+    
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="contact">Contact Number:</label><br>
+    <input type="tel" id="contact" name="contact"><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    
+    <label for="lrn">LRN (Learner Reference Number):</label><br>
+    <input type="text" id="lrn" name="lrn"><br><br>
+    
+    <label for="hobbies">Hobbies:</label><br>
+    <input type="text" id="hobbies" name="hobbies"><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
